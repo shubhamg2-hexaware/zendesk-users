@@ -23,5 +23,7 @@ client.tickets.list(function (err, statusList, body, responseList, resultList) {
     console.log(err);
     return;
   }
+  console.log(responseList, "responseList");
+  console.log(resultList, "resultList");
   console.log(JSON.stringify(body, null, 2, true));//will display all tickets
 });
