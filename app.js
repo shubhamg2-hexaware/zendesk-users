@@ -35,5 +35,5 @@ client.sessions.get(function (err, res, result) {
   }
   //console.log(responseList, "responseList");
   //console.log(resultList, "resultList");
-  console.log(JSON.stringify(body, null, 2, true));
+  console.log(JSON.stringify(result, null, 2, true));
 });
