@@ -14,8 +14,8 @@ client.users.auth(function (err, res, result) {
     console.log(err);
     return;
   }
-  console.log(JSON.stringify(result));
-  console.log(JSON.stringify(result.verified, null, 2, true));
+  //console.log(JSON.stringify(result));
+  //console.log(JSON.stringify(result.verified, null, 2, true));
 });
 
 client.tickets.list(function (err, statusList, body, responseList, resultList) {
@@ -25,7 +25,7 @@ client.tickets.list(function (err, statusList, body, responseList, resultList) {
   }
   //console.log(responseList, "responseList");
   //console.log(resultList, "resultList");
-  console.log(JSON.stringify(body, null, 2, true));
+  //console.log(JSON.stringify(body, null, 2, true));
 });
 
 client.sessions.get(function (err, res, result) {
